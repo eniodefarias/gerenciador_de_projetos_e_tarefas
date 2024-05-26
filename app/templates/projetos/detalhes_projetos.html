@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <title>Detalhes do Projeto</title>
+    <!-- Incluir CSS -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/estilo.css') }}">
+</head>
+<body>
+    <h1>{{ projeto.nome }}</h1>
+    <div>
+        <strong>Cliente:</strong> {{ projeto.cliente.nome }}
+    </div>
+    <div>
+        <strong>Status:</strong> {{ projeto.status }}
+    </div>
+    <div>
+        <strong>Descrição:</strong>
+        <p>{{ projeto.descricao }}</p>
+    </div>
+    <h2>Atividades</h2>
+    <ul>
+        {% for atividade in projeto.atividades %}
+        <li>{{ atividade.descricao }}</li>
+        {% endfor %}
+    </ul>
+    <a href="{{ url_for('projetos.listar_projetos') }}">Voltar à lista de projetos</a>
+</body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <title>Listagem de Projetos</title>
+    <!-- Incluir CSS -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/estilo.css') }}">
+</head>
+<body>
+    <h1>Projetos</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Nome do Projeto</th>
+                <th>Cliente</th>
+                <th>Status</th>
+                <th>Ações</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for projeto in projetos %}
+            <tr>
+                <td>{{ projeto.nome }}</td>
+                <td>{{ projeto.cliente.nome }}</td>
+                <td>{{ projeto.status }}</td>
+                <td>
+                    <a href="{{ url_for('projetos.detalhes_projeto', id=projeto.id) }}">Ver Detalhes</a>
+                    <!-- Outras ações como editar ou deletar -->
+                </td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</body>
+</html>
