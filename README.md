@@ -90,6 +90,7 @@ xyz@mail.com;
      - 1|1|ADMIN@localhost|ADMIN|ADMIN
        - deve ser alterado no primeiro login
  
+
  
 - tabela_grupo
    - id_grupo|descr_grupo
@@ -98,14 +99,17 @@ xyz@mail.com;
        - 2|Gerente
        - 3|Supervisor
        - 4|Operador
+
    
 - tabela_cargo
   - id_cargo|descr_cargo
     - apenas para formalidades
 
 
+
 - tabela_equipe
   - id_equipe|descr_equipe
+
 
 
  - tabela_times
