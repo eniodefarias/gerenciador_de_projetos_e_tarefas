@@ -1,5 +1,11 @@
 from app import db
 
+
+#         /models
+#             __init__.py
+#             user.py  # Este é o seu modelos.py para o usuário
+
+
 class Cliente(db.Model):
     __tablename__ = 'clientes'
     id = db.Column(db.Integer, primary_key=True)

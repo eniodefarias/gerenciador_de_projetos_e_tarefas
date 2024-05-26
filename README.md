@@ -1,3 +1,8 @@
+<a href="https://wakatime.com/badge/user/739793a6-a4fb-4d88-b1e6-f79a9182d930/project/d93a9e9c-5f8d-4ac8-88d2-80c9d1ee2ed6"><img src="https://wakatime.com/badge/user/739793a6-a4fb-4d88-b1e6-f79a9182d930/project/d93a9e9c-5f8d-4ac8-88d2-80c9d1ee2ed6.svg" alt="wakatime"></a>
+
+
+
+
 # gerenciador_de_projetos_e_tarefas
 Projeto para criar um sistema de gerenciamento de Clientes, Projetos e Tarefas
 
@@ -12,34 +17,23 @@ Projeto para criar um sistema de gerenciamento de Clientes, Projetos e Tarefas
 
 ## Descrição:
 
-Você foi contratado pela empresa Microsoft para desenvolver a nova plataforma
-de gestão de projetos e desenvolvimento de software. O sistema legado é
-desktop e não atende mais às necessidades da empresa, visto que, em épocas
-de COVID-19 os colaboradores e clientes precisam acessar a plataforma pela
-internet.
+Você foi contratado pela empresa Microsoft para desenvolver a nova plataforma de gestão de projetos e desenvolvimento de software. O sistema legado é desktop e não atende mais às necessidades da empresa, visto que, em épocas de COVID-19 os colaboradores e clientes precisam acessar a plataforma pela internet.
 
-O sistema consiste em gerenciar os projetos da empresa, visando o
-planejamento e acompanhamento dos times, projetos, clientes, tarefas, entre
-outros.
+O sistema consiste em gerenciar os projetos da empresa, visando o planejamento e acompanhamento dos times, projetos, clientes, tarefas, entre outros.
 
 Os cadastros básicos são (deve-se criar outros a seu critério):
  - o Clientes;
  - o Projetos;
  - o Atividades.
 
-O sistema deve ser capaz de, a qualquer momento, adicionar atividades para
-um cliente em seu respectivo projeto. Ao cadastrar as atividades, deve-se
-relacionar para qual cliente em qual o projeto.
+O sistema deve ser capaz de, a qualquer momento, adicionar atividades para um cliente em seu respectivo projeto. Ao cadastrar as atividades, deve-se relacionar para qual cliente em qual o projeto.
 
-Deve existir uma tela que lista os projetos em aberto (tratar status dos projetos),
-mostrando a qual cliente ele pertence, e com possibilidade de abrir a lista de
-atividades que está cadastrada a este projeto.
+Deve existir uma tela que lista os projetos em aberto (tratar status dos projetos), mostrando a qual cliente ele pertence, e com possibilidade de abrir a lista de atividades que está cadastrada a este projeto.
 
 ## Critérios:
 
  - A interpretação faz parte do projeto;
- - Ao final, postar no GitHub num repositório privado e enviar o e-mail para
-xyz@mail.com;
+ - Ao final, postar no GitHub num repositório privado e enviar o e-mail para xyz@mail.com;
  - Será avaliado a arquitetura do Back-end e Front-end;
  - Será avaliado a qualidade e limpeza do código;
  - Será avaliado a qualidade das telas e organização do Javascript;
